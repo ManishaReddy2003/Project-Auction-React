@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+
+.Form-Page{
+    padding-top:200px;
+}
+
+.form{
+    border: 2px solid;
+    width:35%;
+    height:50%;
+    background-color: white;
+    padding: 30px;
+}
+
+.User-Name{
+     padding:20px;
+}
+.Pass-Word{
+    padding-bottom: 20px;
+}
+.inputusername{
+    width: 53%;
+    background: transparent;
+    outline: none;
+    border: 2px , solid;
+    padding: 10px 25px 10px 10px;
+    font-size: 16px;
+
+}
+.inputpassword{
+    width: 49%;
+    background: transparent;
+    outline: none;
+    border: 2px , solid;
+    padding: 10px 25px 10px 10px;
+    font-size: 16px;
+}
+
+.Submit{
+    padding-bottom: 20px;
+}
+.Submit-Form{
+
+    width: 50%;
+    border: 2px , solid;
+    padding: 10px 25px 10px 10px;
+    font-size: 16px;
+    background-color: grey;
+}
