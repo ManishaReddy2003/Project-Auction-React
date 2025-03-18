@@ -25,13 +25,13 @@ const Register = () =>{
          <div >
           <input   type="text" placeholder="Email" name="email" value={registeremail} onChange={changeHandler}  />
           </div>
-          <div className='Pass-Word'>
-          <input  type="text"  placeholder="Password"  name="password" value={registerpassword} onChange={changeHandler}  />
+          <div >
+          <input  type="password"  placeholder="Password"  name="password" value={registerpassword} onChange={changeHandler}  />
           </div>
-          <div className='User-Name'>
-          <input  type="text" placeholder="Confrom password" name="confrompassword" value={registerconfrompassword}  onChange={changeHandler} />
+          <div >
+          <input  type="password" placeholder="Confrom password" name="confrompassword" value={registerconfrompassword}  onChange={changeHandler} />
           </div>
-          <div className='Submit'>
+          <div>
            <input  type="submit" name='submit' />
            </div>
            <div >
